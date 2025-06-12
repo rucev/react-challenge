@@ -1,5 +1,4 @@
 /*Este componente cumple un proposito muy parecido a la función createForm que tenemos hecha en nuestra app de js vanilla*/
-/*Inputs se espera que sea un array de objetos tipo { type: 'number', placeholder: 'Nuevo número', id: 'number', className: 'input' }*/
 
 const Form = ({ inputs, onsSubmitCallback, submitText, className }) => {
     const onSubmitForm = (event) => {
